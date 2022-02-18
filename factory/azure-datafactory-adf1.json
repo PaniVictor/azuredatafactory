@@ -1,0 +1,9 @@
+{
+	"name": "azure-datafactory-adf1",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "37f3977c-54b9-49d8-87a2-0287d2b0e397",
+		"tenantId": "e1de4a92-d24e-4c48-af2d-3461f0f140ff"
+	}
+}
