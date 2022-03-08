@@ -3,14 +3,33 @@
 	"properties": {
 		"annotations": [],
 		"runtimeState": "Started",
-		"pipelines": [],
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_ingest_ecdc_data",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"sourceRelativeURL": "cloudboxacademy/covid19/raw/ecdc_data/hospital_adimissions.csv",
+					"sinkFileName": "hospital_adimissions.csv"
+				}
+			}
+		],
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
 				"frequency": "Day",
 				"interval": 1,
-				"startTime": "2022-03-08T11:45:00Z",
-				"timeZone": "UTC"
+				"startTime": "2022-03-08T11:45:00",
+				"timeZone": "E. South America Standard Time",
+				"schedule": {
+					"minutes": [
+						54
+					],
+					"hours": [
+						8
+					]
+				}
 			}
 		}
 	}
