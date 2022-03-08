@@ -21,10 +21,10 @@
 			"value": "/subscriptions/18ea9ef0-5f18-4b0e-9555-20c952d5b574/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/storageaccountcovid2022"
 		},
 		"tr_ingest_hospital_admission_data_properties_pl_ingest_ecdc_data_parameters_sourceRelativeURL": {
-			"value": "cloudboxacademy/covid19/raw/ecdc_data/hospital_adimissions.csv"
+			"value": "cloudboxacademy/covid19/raw/ecdc_data/hospital_admissions.csv"
 		},
 		"tr_ingest_hospital_admission_data_properties_pl_ingest_ecdc_data_parameters_sinkFileName": {
-			"value": "hospital_adimissions.csv"
+			"value": "hospital_admissions.csv"
 		}
 	}
 }
