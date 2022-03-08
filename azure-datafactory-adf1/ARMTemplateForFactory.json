@@ -551,18 +551,10 @@
 				"type": "ScheduleTrigger",
 				"typeProperties": {
 					"recurrence": {
-						"frequency": "Day",
+						"frequency": "Minute",
 						"interval": 1,
 						"startTime": "2022-03-08T11:45:00",
-						"timeZone": "E. South America Standard Time",
-						"schedule": {
-							"minutes": [
-								57
-							],
-							"hours": [
-								8
-							]
-						}
+						"timeZone": "UTC-11"
 					}
 				}
 			},
